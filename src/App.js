@@ -233,7 +233,7 @@ function App() {
 
       {/* input */}
 
-      <input style={{color : 'white'}} value={input} onChange={(e)=>{handle_input(e)}} className='input-bar'  placeholder='Please enter your request' />
+      <input style={{color : 'white'}} value={input} onChange={(e)=>{handle_input(e)}} className='input-bar'  placeholder='Enter your prompt here' />
 
       
       {/* /////////////////////////////////////////////////////////////////////////////////// */}
