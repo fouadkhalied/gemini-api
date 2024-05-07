@@ -51,22 +51,24 @@ function App() {
 
   // sending input parameter and receving response
   const chat_Ai = async()=>{
+    
+    try{
     setresult("");
     setloading(true);
     setshow_tabs(false);
     setcopy_input(input);
     state.push(input.slice(0,10) + "...");
     setinput("");
-    try{
-      const result = await RunChat(input);
-      setresult(result);
+    const result = await RunChat(input);
+    setresult(result);
+    setloading(false);
     }
     catch(ex)
     {
       alert(ex);
     }
     //console.log(state);
-    setloading(false);
+    
   }
 
   ///////////////////////////////////////////////////////////////////////////////////////////
