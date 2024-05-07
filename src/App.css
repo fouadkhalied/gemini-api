@@ -1,0 +1,283 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: rgb(26, 25, 25);
+}
+.div10
+{
+  width: 95%;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+}
+.div10-child
+{
+  width: 900px;
+  margin: auto;
+}
+.div10-child-btn
+{
+  border: none;
+  background-color: white;
+}
+.side-bar
+{
+   background-color: rgb(51, 51, 51);
+   height: 100%;
+   margin-left: auto;
+}
+.side-bar-icon , .side-bar-icon-2
+{
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+   display: block;
+}
+.side-bar-icon
+{
+  font-size: 20px;
+  margin-top: 13px;
+  margin-bottom: 100px;
+  margin-left: 14px;
+  color : 'gray';
+}
+.side-bar-icon-2
+{
+  font-size: 19px;
+  margin-bottom: 15px;
+  margin-left: 33px;
+  display: flex;
+}
+.side-bar-icon-2-text
+{
+  position: relative;
+  left: 18px;
+  top: -4px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
+.side-bar-next
+{
+   margin-top: 138px;
+}
+.side-bar-icon-circle
+{
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 20px;
+  background-color: rgb(29, 29, 29);
+  border: 1px solid rgb(39, 39, 39);
+  height: 50px;
+  display: flex;
+}
+.side-bar-icon-circle-text
+{
+   position: relative;
+   top: 14px;
+   left: 12px;
+   color: rgb(136, 135, 135);
+}
+.div10-child-result
+{
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+/* ////////////////////////////////////////////////////////////////////// */
+.input-bar
+{
+  width: 90%;
+  height: 50px;
+  border-radius: 40px;
+  padding: 20px;
+  outline: none;
+  z-index: 12;
+  background-color: rgb(56, 56, 56);
+}
+h1
+{
+  background: -webkit-linear-gradient( #4285f4 , #9b72cb , #d96570 , #d96570);
+  /* background-image: linear-gradient(to right ,  #4285f4 , #9b72cb , #d96570 , #d96570) */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+.input-bar-div
+{
+  position: relative;
+}
+.div10-child-result-2
+{
+  height: 500px;
+  color: white !important;
+  overflow-y :scroll;
+}
+.div10-child-result-2::-webkit-scrollbar
+{
+  display: none;
+}
+.div10-child-icon-circle-main
+{
+  display: flex;
+  width: 7%;
+  font-size: 22px;
+  color: white;
+  right: 50px;
+  bottom: 4px;
+  z-index: 12;
+  position: absolute;
+  justify-content: space-evenly;
+}
+.div10-child-icon-circle
+{
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding-top: 4px;
+}
+.div10-child-icon-circle:hover
+{
+  background-color: rgb(138, 137, 137);
+}
+.div10-child-tabs
+{
+   height: 200px;
+   margin-top: 50px;
+}
+.div10-child-tabs
+{
+   display: flex;
+   justify-content: space-around;
+}
+.div10-child-tabs-1
+{
+   border: 1px solid white;
+   width: 21%;
+   cursor: pointer;
+   padding-top: 10px;
+   border-radius: 20px;
+   color: white;
+   font-size: 23px;
+   background-color: rgb(24, 24, 24);
+}
+.div10-child-tabs-1:hover 
+{
+  background-color: rgb(39, 39, 39);
+}
+.div10-child-tabs-1 h2
+{
+   font-size: 16px;
+}
+.div10-child-tabs-icon
+{
+   padding-top: 8px;
+}
+.div10-child-tabs-circle
+{
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 80px;
+  margin-left: 10px;
+}
+.text-area-of-input
+{
+  width: 90%;
+  height: 190px;
+  outline: none;
+  border: black;
+  overflow: hidden;
+  border-radius: 20px 20px 20px 20px;
+  padding: 30px;
+  background-color: rgb(56, 56, 56);
+  position: absolute;
+  top: -140px;
+  border-bottom: none;
+}
+/* result //////////////////////////////////////// */
+
+.div10-child-result-shape
+{
+  height: 15%;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: space-around;
+}
+.user-icon
+{
+  width: 8%;
+  margin-top: 10px;
+}
+.user-icon-div
+{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.user-input
+{
+  color: white;
+  width: 80%;
+  text-align: left;
+  position: relative;
+  top: 24px;
+}
+.div10-child-result-div
+{
+  display: flex;
+  height: 80%;
+  justify-content: space-around;
+}
+.rotating-icon
+{
+  width: 8%;
+}
+.rotating-icon-div
+{
+  position: relative;
+  top: 20px;
+  font-size: 30px;
+}
+.div10-child-result-2-result
+{
+  width: 80%;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+}
+.side-bar-div-recent
+{
+   height: 50px;
+   padding-top: 7px;
+   padding-left: 16px;
+}
+.side-bar-div-state
+{
+  height: 170px;
+  overflow-y: scroll;
+}
+.side-bar-div-state::-webkit-scrollbar
+{
+  display: none;
+}
+.side-bar-div-state-li
+{
+   color: white;
+   border: 1px solid white;
+   width: 90%;
+   margin: auto;
+   padding: 5px;
+   text-align: center;
+   margin-top: 5px;
+   border-radius: 20px;
+}
