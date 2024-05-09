@@ -26,8 +26,8 @@
     border: 0px solid rgb(255, 255, 255);
     border-radius: 50%;
     position: absolute;
-    left: 230px;
-    top: 90px;
+    left: 210px;
+    top: 80px;
 }
 .ring:nth-child(1)
 {
