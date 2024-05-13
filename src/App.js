@@ -37,7 +37,7 @@ function App() {
     "Suggest beautiful places to see on an upcoming road trip" ,
     "Briefly summarize this concept: urban planning" ,
     "Brainstorm team bonding activities for our work retreat" ,
-    "Brainstorm team bonding activities for our work retreat"
+    "Tell me about React js and React native"
   ]
   //////////////////////////////////////////////////////////////////////////////////////////
 
