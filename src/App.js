@@ -181,7 +181,7 @@ function App() {
             </div>
             <div className='div10-child-tabs-1' onClick={()=>{setinput(data[3])}}>
                 <h2>
-                Brainstorm team bonding activities for our work retreat
+                Tell me about React js and React native
                 </h2>
 
                 <div className='div10-child-tabs-circle'>
